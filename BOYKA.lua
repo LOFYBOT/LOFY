@@ -2136,7 +2136,7 @@ end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
 Text = [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ 
-🔖↬BOYKA TEAM
+🔖↬LOFY TEAM
  ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 📮↬[Channel BOYKA](t.me/lofytaem17) 
 
