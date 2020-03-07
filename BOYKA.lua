@@ -257,7 +257,7 @@ var = 'المطور الاساسي👨‍💻'
 elseif tonumber(user_id) == tonumber(bot_id) then  
 var = 'البوت🤖'
 elseif database:sismember(bot_id..'Sudo:User', user_id) then
-var = database:get(bot_id.."Sudo:Rd"..msg.chat_id_) or 'المطور👩‍🚒'  
+var = database:get(bot_id.."Sudo:Rd"..msg.chat_id_) or 'المطور‍🚒'  
 elseif database:sismember(bot_id..'Basic:Constructor'..chat_id, user_id) then
 var = database:get(bot_id.."BasicConstructor:Rd"..msg.chat_id_) or 'المنشئ اساسي👩‍🚀'
 elseif database:sismember(bot_id..'Constructor'..chat_id, user_id) then
@@ -7394,7 +7394,7 @@ end
 if text == ""..(database:get(bot_id..'Name:Bot') or 'لوفي').."" then  
 Namebot = (database:get(bot_id..'Name:Bot') or 'لوفي')
 local BOYKA_Msg = {
-'اسمي مينو كول💘؟',
+'اسمي لوفي كول💘؟',
 'دا اشرب جاي مفارغلك',
 'لابسك لتلح',
 'كول حبيبي ؟ اني '..Namebot..'',
@@ -8411,8 +8411,8 @@ local rtpg = rtpa
 local tahaa = {
 "اروح فـدوه لـحلوين🤫💝",
 "فديت الصاك🤗🤤",
-"فـدشـي عمـي💋💘",
-"دغـيرهـا شبـي هـاذ😒💔",
+"فـدشـي عمـي💋💘"
+"دغـيره شهل صوره😒💔",
 "شهل الگيمر 💋💖",
 "شهل الصوره تخمبش 😘🌷",
 "فديت الحلو ☺️😚",
